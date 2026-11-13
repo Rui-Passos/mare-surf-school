@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables (secrets never go to the repo)
+.env
+.env.*
+!.env.example
+
+# Supabase CLI local data
+supabase/.temp
+supabase/.branches
